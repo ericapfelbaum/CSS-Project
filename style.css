@@ -5,7 +5,7 @@
 #nav{
   width: 20%;
   float: left;
-  background: blue;
+  background: gray;
   text-align: center;
   padding: 1%;
   margin: 1.5%;
@@ -15,7 +15,7 @@
   float: left;
   background: orange;
   text-align: center;
-  height: 80px;
+  height: 40px;
   margin-bottom: 5px;
 }
 #blackLine{
@@ -24,13 +24,13 @@
   clear: both;
   margin-bottom: 5px;
 }
-#ad{
-  float: left;
-  width: 30%;
-  background: red;
-}
+
 #content{
-  float: left;
-  width: 40%;
-  background: magenta;
+  width: 75%;
+  background: gray;
+}
+
+#footer{
+  background: black;
+  clear: both;
 }
