@@ -12,7 +12,7 @@
   padding: 0.5%;
   margin-bottom: 5px;
   font-weight: bold;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 8px 0px rgba(69, 69, 67, 27);
 }
 
 #header {
@@ -23,16 +23,16 @@
   padding: 0.5%;
   margin-bottom: 5px;
   font-weight: bold;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 #blackLine {
   width: 93%;
-  background: #B213FF;
+  background: #B5B5B1;
   clear: both;
   margin-bottom: 5px;
-  color: #B213FF;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  color: #B5B5B1;
+  box-shadow: 0px 10px 16px 0px rgba(69, 69, 67, 27);
 }
 
 #content {
@@ -50,6 +50,7 @@
 }
 
 #imageTitle{
+  width: 20%;
   font-weight: bold;
   text-indent: 10px;
   font-size: 22px;
@@ -61,6 +62,29 @@
   background-position: left top;
   width: 656px;
   height: 340px;
+}
+
+#whale {
+  background-image: url(images/whale.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 656px;
+  height: 340px;
+}
+
+#imageContent{
+  margin-bottom: 10%;
+  margin-top: .5%;
+  text-indent: 25px;
+  padding: .5%;
+  width: 60%;
+  background: rgba(232, 121, 90, 0.3);
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+  opacity: 95%;
+  border-top-style: solid;
+  border-color: #E8795A
+
 }
 
 /*content2 {
@@ -76,10 +100,10 @@
 }*/
 
 #footer {
-  background: #B213FF;
+  background: #B5B5B1;
   clear: both;
   margin-top: 5px;
   width: 93%;
-  color: #B213FF;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  color: #B5B5B1;
+  box-shadow: 0px 10px 16px 0px rgba(69, 69, 67, 27);
 }
