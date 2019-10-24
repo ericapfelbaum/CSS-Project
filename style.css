@@ -3,6 +3,13 @@
   margin: auto;
 }
 
+body{
+  background-image:
+  url("images/newbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #nav {
   text-decoration: none;
   width: 20%;
@@ -46,14 +53,20 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
   opacity: 95%;
   border-top-style: solid;
-  border-color: #E8795A
+  border-color: #E8795A;
 }
 
 #imageTitle{
-  width: 20%;
+  margin: 1%;
+  width: 19%;
   font-weight: bold;
   text-indent: 10px;
   font-size: 22px;
+  background: rgba(232, 121, 90, 0.3);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+  opacity: 95%;
+  border-left-style: solid;
+  border-color: #FFE270;
 }
 
 #rhino {
@@ -68,6 +81,38 @@
   background-image: url(images/whale.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  width: 656px;
+  height: 340px;
+}
+
+#rhino {
+  background-image: url(images/rhino.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 656px;
+  height: 340px;
+}
+
+#elephants {
+  background-image: url(images/elephants.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 656px;
+  height: 340px;
+}
+
+#jaguar {
+  background-image: url(images/jaguar.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 656px;
+  height: 340px;
+}
+
+#tiger {
+  background-image: url(images/tiger.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
   width: 656px;
   height: 340px;
 }
