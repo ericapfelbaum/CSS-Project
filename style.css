@@ -117,6 +117,42 @@ body{
   height: 340px;
 }
 
+#panda {
+  background-image: url(images/panda.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 656px;
+  height: 340px;
+}
+
+#polar {
+  background-image: url(images/polar.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 656px;
+  height: 340px;
+}
+
+#turtle {
+  background-image: url(images/turtle.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 656px;
+  height: 340px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#lion {
+  background-image: url(images/lion.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 656px;
+  height: 340px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 #imageContent{
   margin-bottom: 10%;
   margin-top: .5%;
