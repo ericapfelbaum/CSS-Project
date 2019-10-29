@@ -5,7 +5,7 @@
 
 body {
   background-image:
-  url("images/newbackground.jpg");
+    url("images/newbackground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -59,7 +59,7 @@ body {
   margin-bottom: 8%;
 }
 
-#imageTitle{
+#imageTitle {
   margin: 1%;
   width: 19%;
   font-weight: bold;
@@ -156,7 +156,7 @@ body {
   margin-bottom: 2%;
 }
 
-#imageContent{
+#imageContent {
   margin-bottom: 10%;
   margin-top: .5%;
   text-indent: 25px;
@@ -168,7 +168,6 @@ body {
   opacity: 95%;
   border-top-style: solid;
   border-color: #E8795A
-
 }
 
 #footer {
